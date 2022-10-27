@@ -81,6 +81,7 @@ p {
   left: 7px;
   position: absolute;
 }
+
 .text01 {
   top: 391px;
   left: 408px;
@@ -89,6 +90,7 @@ p {
   transform: rotate(18.5deg);
   position: absolute;
 }
+
 .text02 {
   top: 359px;
   left: 466px;
@@ -203,8 +205,11 @@ p {
   text-align: left;
   position: absolute;
 }
+.text07:hover {
+  color: #B11818;
+}
 .text08 {
-  top: 310px;
+  top: 311px;
   left: 662px;
   font-size: 20px;
   text-align: center;
@@ -258,6 +263,9 @@ p {
   text-align: left;
   position: absolute;
 }
+.text11:hover {
+  color: #2843CE;
+}
 .block3{
   top: 594px;
   left: 363px;
@@ -267,6 +275,9 @@ p {
   border: 2px solid #B11818;
   position: absolute;
 }
+.block3:hover {
+  border-color: #2843CE;
+}
 .text12 {
   top: 603px;
   left: 378px;
@@ -275,6 +286,9 @@ p {
   line-height: 122%;
   text-align: left;
   position: absolute;
+}
+.text12:hover {
+  color: #2843CE;
 }
 
 /* АРХИТЕКТУРА */
@@ -319,11 +333,16 @@ p {
   left: 684px;
   transform: rotate(-15deg);
   position: absolute;
+  transition: all .8s ease-out;
 }
 .k img {
   top: -45px;
   left: 2px;
   position: absolute;
+}
+.k:hover {
+  scale: 110%;
+  transition: all .8s ease-out;
 }
 .text14 {
   top: 451px;
@@ -338,11 +357,16 @@ p {
   left: 468px;
   transform: rotate(17.59deg);
   position: absolute;
+  transition: all .8s ease-out;
 }
 .y img {
   top: -141px;
   left: -37px;
   position: absolute;
+}
+.y:hover {
+  scale: 110%;
+  transition: all .8s ease-out;
 }
 .text15 {
   top: 802px;
@@ -356,11 +380,16 @@ p {
   left: 971px;
   transform: rotate(16deg);
   position: absolute;
+  transition: all .8s ease-out;
 }
 .f img {
   top: -34px;
   left: 14px;
   position: absolute;
+}
+.f:hover {
+  scale: 110%;
+  transition: all .8s ease-out;
 }
 .text16 {
   top: 752px;
@@ -375,11 +404,16 @@ p {
   left: 726px;
   transform: rotate(-24.76deg);
   position: absolute;
+  transition: all .8s ease-out;
 }
 .h img {
   top: -98px;
   left: 20px;
   position: absolute;
+}
+.h:hover {
+  scale: 110%;
+  transition: all .8s ease-out;
 }
 .text17 {
   top: 1086px;
@@ -409,11 +443,13 @@ p {
   height: 934px;
   top: -100px;
   right: 0px;
+  overflow: hidden;
   position: absolute;
 }
 .teapot img {
-  top: -451px;
+  top: 5px;
   right: 0px;
+  overflow: hidden;
   position: absolute;
 }
 .teacup {
