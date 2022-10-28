@@ -57,10 +57,6 @@ p {
   letter-spacing: 0.02em;
   position: absolute;
 }
-.head h1 {
-  top: 12px;
-  font-size: 145px;
-}
 /* БИЛЕТЫ */
 
 .tick {
@@ -202,7 +198,7 @@ p {
   position: absolute;
 }
 .text07 {
-  top: 319px;
+  top: 316px;
   left: 173px;
   font-size: 48px;
   text-align: left;
@@ -250,9 +246,9 @@ p {
 }
 .block2 {
   top: 339px;
-  right: 152px;
-  width: 100px;
-  height: 49px;
+  right: 151px;
+  width: 116px;
+  height: 52px;
   background: #FFFFFF;
   border: 2px solid #2843CE;
   border-radius: 17px;
